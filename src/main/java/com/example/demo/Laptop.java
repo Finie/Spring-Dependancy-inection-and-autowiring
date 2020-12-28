@@ -2,7 +2,11 @@ package com.example.demo;
 
 import org.springframework.stereotype.Component;
 
-@Component
+/*
+*@Component creates an object in the spring's Container
+*/
+
+@Component("laptop")
 public class Laptop {
 
     private int lId;
